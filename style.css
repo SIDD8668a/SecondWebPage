@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/*  Universal Element */
+* {
+    box-sizing: border-box;
+}
+
+/* Navbar Setion */
+.navbar {
+    width: 100%;
+    /* clear: both; */
+}
+
+.nav-logo img {
+    width: 9%;
+    float: left;
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-bottom: 0px;
+}
+
+.nav-menu {
+    width: 65%;
+    float: left;
+    /* padding-top: 5px; */
+
+}
+
+.nav-menu li {
+    margin-left: 8px;
+    margin-top: 5px;
+    display: inline;
+
+}
+
+.nav-menu a {
+
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.nav-menu ul {
+    float: right;
+
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 23px 16px;
+    cursor: pointer;
+
+}
+
+.active,
+.btn:hover {
+    background-color: #168ef0;
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+}
+
+/*  Navbar Section End */
+
+
+.Banner {
+    clear: both;
+
+    position: relative;
+}
+
+.Banner img {
+    width: 100%;
+    height: 450px;
+}
+
+.verticleSection {
+    width: 45%;
+    background-color: rgba(5, 105, 255, 0.452);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 450px;
+}
+
+.verticleSection h1 {
+    width: 40%;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.877);
+    top: 90px;
+    left: 222px;
+    font-family: 'Cormorant SC', serif;
+    position: absolute;
+}
+
+.verticleSection span {
+    font-weight: 100;
+}
+
+.verticleSection p {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    /* clear: both; */
+    left: 222px;
+    top: 200px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.verticleBanner h1 {
+    position: absolute;
+    top: 700px;
+    background-color: rgba(87, 102, 240, 0.856);
+}
+
+/* Banner Section End */
+
+
+/* Banner-2 Section */
+.Section-2 {
+    width: 100%;
+    position: relative;
+    height: 310px;
+    clear: both;
+
+
+}
+
+.Section-2 h1 {
+    width: 30px;
+    position: absolute;
+    left: 240px;
+    top: 90px;
+}
+
+.headSection {
+    width: 45%;
+    height: 350px;
+    float: left;
+    background-color: rgba(5, 105, 255, 0.452);
+    margin-top: -20px;
+    clear: both;
+}
+
+.about {
+    width: 100%;
+    height: 350px;
+
+
+}
+
+.about li {
+    float: left;
+    padding: 18px;
+    list-style: none;
+}
+
+.about i {
+    background-color: rgb(36, 36, 243);
+}
+
+.Section-3 {
+    width: 100%;
+    background-color: rgb(2, 2, 105);
+    padding-top: 30px;
+    height: auto;
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.Section-3 h2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.Section-3 p {
+
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 272px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.banner-2 {
+    width: 100%;
+}
+
+.banner-2 img {
+    width: 100%;
+    height: 660px;
+}
+
+.Section-4 {
+    width: 60%;
+    text-align: center;
+    margin-top: 60px;
+    margin: 0 auto;
+}
+.image {
+    width: 30%;
+    float: left;
+    margin-right: 26px;
+   
+}
+.image img {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+
+.image h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+
+}
+
+.image p {
+    text-align: center;
+}
+
+hr {
+    font-size: 5px;
+}
+
+/* Media Query Start */
+@media (max-width: 768px) {
+    .nav-logo img {
+        width: 18%;
+        float: left;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .nav-menu {
+        width: 82%;
+        float: left;
+        font-size: 10px;
+        margin-top: 10px;
+
+    }
+
+    .Banner {
+        clear: both;
+        position: relative;
+    }
+
+    .Banner img {
+        width: 100%;
+        clear: both;
+
+    }
+
+    .verticleSection h1 {
+        width: 45%;
+        font-size: 25px;
+        color: rgba(255, 255, 255, 0.877);
+        top: 90px;
+        left: 75px;
+        font-family: 'Cormorant SC', serif;
+        position: absolute;
+    }
+
+
+    
+
+    .verticleSection p {
+        position: absolute;
+        font-size: 13px;
+        color: white;
+        left: 75px;
+        top: 200px;
+       
+    }
+
+    .Section-2 h1 {
+        width: 30px;
+        position: absolute;
+        font-size: 20px;
+        left: 75px;
+        top: 90px;
+    }
+
+    .about li {
+        width: 19%;
+        float: left;
+        padding: 11px;
+        list-style: none;
+    }
+
+    .Section-3 {
+        width: 100%;
+        background-color: rgb(2, 2, 105);
+        padding-top: 30px;
+        height: auto;
+        clear: both;
+        padding-bottom: 50px;
+    }
+
+
+    .Section-3 p {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        color: white;
+    }
+
+    .image {
+        width: 100%;
+        float: left;
+        margin-right: 0px; 
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
